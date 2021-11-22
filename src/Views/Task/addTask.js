@@ -107,7 +107,6 @@ function AddTask(props) {
         e.preventDefault()
         history.push('/tasks')
     }
-    console.log(dueData, ' ffffffffffffffffffffff')
     return (
         <div className="SignInBoard" style={{ top: '60%' }}>
 
