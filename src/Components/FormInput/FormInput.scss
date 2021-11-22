@@ -1,0 +1,61 @@
+.FormInput{
+    width: 100%;
+    margin-bottom: 16px;
+    .error {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #FF2929;
+        padding-top: 6px;
+        display: block;
+        border: none;
+    }
+    label{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        display: block;
+        line-height: 16px;
+        color: #16181D;
+        margin-bottom: 12px;
+        @media only screen and (max-width: 768px) {
+            font-size: 14px !important;
+        }
+        span{
+            color: #FF2929;
+        }
+        .preference{
+            font-size: 12px;
+            color: #3225A7;
+            font-family: 'Roboto', sans-serif;
+            display: inline-block;
+            float: right;
+            cursor: pointer;  
+            text-decoration: none; 
+            @media only screen and (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+    }
+    input{
+        // height: 51px;
+        padding: 18px 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 16px;
+        color: #16181D;
+        border-radius: 4px;
+        border: .6px solid #ADB7BA;
+        width: 100%;
+        ::placeholder{
+             opacity: .6;
+        }
+        &:disabled{
+            pointer-events: none;
+            user-select: none;
+            background: #fff;
+            opacity: .75;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}

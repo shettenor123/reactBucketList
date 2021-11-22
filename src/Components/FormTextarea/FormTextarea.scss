@@ -1,0 +1,33 @@
+.FormTextarea {
+  margin-bottom: 16px;
+  label {
+    font-size: 18px;
+    display: block;
+    line-height: 16px;
+    float: left;
+    margin-bottom: 12px;
+    @media only screen and (max-width: 768px) {
+      font-size: 14px !important;
+      color: #16181d !important;
+  }
+    span{
+      color: #FF2929;
+  }
+  }
+  textarea{
+      resize: none;
+      height: 116px;
+      border: 1px solid #ADB7BA;
+      border-radius: 4px;
+      width: 100%;
+      padding: 18px 20px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      line-height: 16px;
+      color: #16181D;
+      box-sizing: border-box;
+      &:focus{
+          outline: none;
+      }
+  }
+}

@@ -1,0 +1,48 @@
+.SubscriptionList {
+    max-width: 1036px;
+    padding: 33px 30px;
+    border-radius: 4px;
+    background-color: #009e74;
+    color: #fff;
+    margin-top: 30px;
+    overflow-x:auto;
+   h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 18px;
+   }
+   table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 24px;
+    th, td {
+        text-align: left;
+        padding: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+      }
+      th{
+        font-family: 'Roboto', sans-serif;
+      }
+      td{
+          a{
+            width: 85px;
+            height: 29px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #FF8C00;
+            border-radius: 4px;
+            font-family: OpenSans-Semibold;
+            font-size: 11px;
+            outline: none;
+            cursor: pointer;
+          }
+      }
+      
+  }
+}
